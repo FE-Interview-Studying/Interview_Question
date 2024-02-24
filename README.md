@@ -1,1 +1,4 @@
-# Interview_Question
+# 2024-1-FE
+
+### 스터디원
+김수진, 이동욱
