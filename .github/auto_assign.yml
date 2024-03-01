@@ -1,0 +1,18 @@
+# Set to true to add reviewers to pull requests
+addReviewers: true
+
+# assignee 추가 여부 (true로 할경우 reviewers 전부 들어가고 author로 할 경우 PR한 담당자로 배정된다.)
+addAssignees: author
+
+# A list of reviewers to be added to pull requests (GitHub user name)
+reviewers: 
+  - Lee-Dongwook
+  - SoozingKIM
+
+# A list of keywords to be skipped the process that add reviewers if pull requests include it 
+skipKeywords:
+  # - wip
+
+# A number of reviewers added to the pull request
+# Set 0 to add all the reviewers (default: 0)
+numberOfReviewers: 1
