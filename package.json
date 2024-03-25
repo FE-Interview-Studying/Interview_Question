@@ -1,0 +1,31 @@
+{
+    "name": "frontend-study",
+    "version": "1.0.0",
+    "packageManager": "yarn@4.1.1",
+    "description": "Nextra docs template for Frontend Study",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "license": "MIT",
+    "author": "Lee-Dongwook, SoozingKIM",
+    "bugs": {
+        "url": "https://github.com/shuding/nextra-docs-template/issues"
+    },
+    "dependencies": {
+        "next": "^14.1.4",
+        "nextra": "^2.13.4",
+        "nextra-theme-docs": "^2.13.4",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.38",
+        "tailwindcss": "^3.4.1"
+    }
+}
