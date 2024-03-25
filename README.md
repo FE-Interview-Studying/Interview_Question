@@ -20,18 +20,18 @@
 
 ### 레포지토리 관리 방식
 
-각자의 폴더에 `.md` 또는 `.mdx` 형식으로 공부한 내용을 요약합니다.
+`.mdx` 형식으로 공부한 내용을 요약합니다.
 
 main 브랜치에 Pull Request(PR)를 생성하고, 지정된 리뷰어가 정리한 내용을 검토한 후에 병합합니다.
 
 ```
 .
 ├── .github/
-│   ├── workflow/
-│   │   └── review.yml
-│   └── auto_assign.yml
-├── Dongwook/
-│   └── ...
-└── Sujin/
+│   ├── workflows/
+│   │   └── pr_auto_assign.yml 
+│   └── auto_assign_config.yml
+├── asset/ # 이미지 폴더 저장
+│   
+└── JS/ # JS 정리 내용 공동 작업
     └── ...
 ```
